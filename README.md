@@ -1,1 +1,98 @@
-# enhansome-annotation-processing
+# Awesome annotation processing with stars
+
+\= Awesome Java Annotation Processing
+:toc:
+:toc-placement!:
+
+Java Annotation Processing (defined by <https://jcp.org/en/jsr/detail?id=269[JSR> 269]) is a standardized API for hooking into the Java compiler, allowing you to validate the code under compilation and generate additional (source or byte) code.
+This <https://github.com/topics/awesome-list[Awesome> List] aims at providing an overview of helpful resources around that API,
+including existing useful annotation processors, related presentations and blog posts, implementation best practices etc.
+
+toc::\[]
+
+\== Existing Annotation Processors
+
+*Existing annotation processors for different purposes*
+
+* <https://github.com/xmolecules/jmolecules-integrations/tree/main/jmolecules-apt[jMolecules> ⭐ 115 | 🐛 25 | 🌐 Java | 📅 2026-06-15 annotation processor] - Verifies rules attached to <https://github.com/xmolecules/jmolecules[jMolecules>] concepts.
+* <https://github.com/avaje/avaje-inject[avaje-inject>] - Compile-time dependency injection library.
+* <https://github.com/avaje/avaje-jsonb[avaje-jsonb>] - JSON mapping using generated source code
+* <https://github.com/avaje/avaje-http[avaje-http>] - Generates adapter code for Javalin and Helidon SE/Nima from JAX-RS style controllers.
+* <https://github.com/Pante/chimera[chimera>] - Compile-time static analysis and generation of commands for Spigot plugins.
+* <https://github.com/dekorateio/dekorate[dekorate>] - Generates manifests for Kubernetes/OpenShift.
+* <https://google.github.io/dagger/[Dagger>] - Compile-time dependency injection framework for both Java and Android.
+* <https://github.com/derive4j/derive4j[derive4j>] - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, folds, optics and typeclasses.
+* <https://github.com/DominoKit/domino-jackson[domino-jackson>] - Generates Jackson based JSON mappers where the same mapper can be used on the JVM/android or GWT client Javascript code.
+* <https://github.com/DominoKit/domino-rest[domino-rest>] - Generates rest clients from JaxRs compatible interfaces.
+* <https://github.com/misberner/duzzt[Duzzt>] - Duzzt - Annotation-based Embedded DSL Generator for Java.
+* <https://github.com/google/auto[Google> Auto] - A collection of source code generators for Java.
+* <https://github.com/google/error-prone[Google> Error Prone] - A static analysis tool for Java that catches common programming mistakes at compile-time.
+* <https://github.com/LachlanMcKee/gsonpath[Gson> Path] - A Java annotation processor library which generates gson type adapters using basic JsonPath style annotations.
+* <http://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#validator-annotation-processor[Hibernate> Validator annotation processor] - Compile-time checking of Bean Validation constraints.
+* <https://docs.jboss.org/hibernate/orm/current/topical/html_single/metamodelgen/MetamodelGenerator.html[JPA> Static Metamodel Generator] - Creates JPA 2 static metamodel classes.
+* <https://immutables.github.io/[Immutables>] - Java annotation processors to generate simple, safe and consistent value objects.
+* <https://github.com/openjdk/jmh[JMH> Generator] - Generates Java Microbenchmark Harness (JMH) benchmarks.
+* <https://github.com/jbock-java/jbock[jbock>] - Generates command line parsers.
+* <https://github.com/jstachio/jstachio[jstachio>] - A typesafe Java Mustache templating engine that compiles templates into readable Java code.
+* <https://github.com/bowbahdoe/magic-bean[Magic> Bean] - A very basic library which will generate POJOs.
+* <http://mapstruct.org/[MapStruct>] - Compile-time generator for type-safe bean-to-bean mapping code.
+* <https://micronaut.io[Micronaut>] - A modern full-stack framework for building modular, easily testable microservice and serverless applications.
+* <https://github.com/almogtavor/pojo-analyzer[Pojo> Analyzer] - A library enables looping over POJOs' fields or access them by their names, and retreive their getters & setters.
+* <https://github.com/Randgalt/record-builder[Record> Builder] - Adds Builders and Withers for Java Records (added in Java 16).
+* <https://github.com/sundrio/sundrio[Sundrio>] - A collection of apt-based code generating tools, including advanced builder generator, dsl generator, velocity transformer and etc.
+* <https://github.com/civitz/viper[Viper>] - A generator and a framework for injecting configurations via the java EE's CDI. Put all your configuration keys in an enum, and make viper inject the configurations in your beans.
+* <https://github.com/cleopatra27/chocotea[chocotea>] - Generates postman collection, environment and integration tests from Java code.
+* <https://github.com/cuzfrog/sharedtype[sharedtype>] - Generates type information from Java source code to Typescript, Rust, Go, and more.
+
+\=== Android
+
+*Annotation processors specific to Android development*
+
+* <https://github.com/JakeWharton/butterknife[Butter> Knife] - Bind Android views and callbacks to fields and methods.
+* <https://github.com/johncarl81/parceler[Parceler>] - Android Parcelables made easy through code generation.
+
+\== Useful Tools
+
+*Useful tools and libraries for implementing annotation processors*
+
+* <https://velocity.apache.org[Apache> Velocity] - A Java-based template engine
+* <https://github.com/toolisticon/aptk[APTK>] - A toolbox that helps you to build annotation processors in a more efficient way.
+* <https://github.com/avaje/avaje-prisms[Avaje> Prisms] - A JDK 11 fork of Hickory with some minor enhancements.
+* <https://github.com/google/compile-testing[Compile> Testing] - Testing tools for javac and annotation processors.
+* <https://github.com/ascopes/java-compiler-testing[Java> Compiler Testing] - Library for integration testing annotation processors against javac. Supports testing packages and JPMS modules, uses in-memory file systems, and includes integrations with Junit5 and AssertJ.
+* <https://github.com/toolisticon/cute[CUTE>] - Testing tools for javac and annotation processors. Allows unit and black box testing.
+* <https://github.com/Pante/elementary[Elementary>] - A suite of JUnit 5 extensions that provides a real annotation processing environment during testing
+* <https://github.com/square/javapoet[JavaPoet>] - A Java API for generating .java source files.
+* <https://javadoc.io/static/com.jolira/hickory/1.0.0/net/java/dev/hickory/prism/package-summary.html[Hickory>] - An annotation processor for generating "prisms", allowing to access known annotation types without class references; <https://mvnrepository.com/artifact/com.jolira/hickory/1.0.0[Maven> coordinates], <https://github.com/vietj/hickory[fork> repo] (There is no official source repo existing)
+
+\== Slide Decks and Recordings
+
+* <https://speakerdeck.com/rharter/at-eliminate-boilerplate-1[@Eliminate("Boilerplate>")]
+* <https://jakewharton.com/annotation-processing-boilerplate-destruction-square-waterloo/[Annotation> Processing Boilerplate Destruction]
+* <https://www.slideshare.net/raphaelbrugier/quickie-annotationsprocessordevoxxfr2015[Annotation> Processor, trésor caché de la JVM] (French)
+* <https://github.com/fbiville/annotation-processing-ftw[Annotation> Processing Hands-on Labs, Devoxx France 2015] (French)
+* <https://de.slideshare.net/deors/javaone-2017-con3282-code-generation-with-annotation-processors-state-of-the-art-in-java-9[Code> Generation with Annotation Processors: State of the Art in Java 9]
+* <https://speakerdeck.com/gunnarmorling/das-annotation-processing-api-use-cases-und-best-practices[Das> Annotation Processing API - Use Cases und Best Practices] (German)
+
+\== Blog Posts and Articles
+
+* <http://hannesdorfmann.com/annotation-processing/annotationprocessing101[Annotation> Processing 101]
+* <https://medium.com/@iammert/annotation-processing-dont-repeat-yourself-generate-your-code-8425e60c6657[Annotation> Processing : Don’t Repeat Yourself, Generate Your Code.]
+* <https://blog.jooq.org/2018/12/07/how-to-unit-test-your-annotation-processor-using-joor/[How> to Unit Test Your Annotation Processor using jOOR]
+* <https://jax.de/blog/core-java-jvm-languages/java-annotation-processing-das-koennte-auch-ein-computer-erledigen/[Java> Annotation Processing: Das könnte auch ein Computer erledigen] (German)
+* <https://www.baeldung.com/java-annotation-processing-builder[Java> Annotation Processing and Creating a Builder]
+* <https://dzone.com/articles/the-problem-with-annotation-processors[The> Problem with Annotation Processors]
+* <https://medium.com/androidiots/writing-your-own-annotation-processors-in-android-1fa0cd96ef11[Writing> your own Annotation Processors in Android]
+* <https://deors.wordpress.com/2011/09/26/annotation-types[Code> Generation using Annotation Processors in the Java language]
+
+\== Related Concepts
+
+*APIs and tools going beyond what's doable with JSR 269*
+
+* <http://spoon.gforge.inria.fr/[Spoon>] - Source Code Analysis and Transformation for Java (allows for AST modifications, too)
+* <https://docs.oracle.com/javase/8/docs/jdk/api/javac/tree/com/sun/source/util/Plugin.html[javac> Plug-in API] (allows for full AST inspection)
+* <https://projectlombok.org/[Project> Lombok] - Generates boilerplate Java code like getters/setters and equals/hashCode methods.
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
