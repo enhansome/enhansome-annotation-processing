@@ -1,7 +1,29 @@
 {
-  "items": [],
+  "items": [
+    {
+      "description": "=== Android\nAnnotation processors specific to Android development\n== Useful Tools\nUseful tools and libraries for implementing annotation processors\n== Slide Decks and Recordings\n== Blog Posts and Articles\n== Related Concepts\nAPIs and tools going beyond what's doable with JSR 269",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "https://github.com/xmolecules/jmolecules-integrations/tree/main/jmolecules-apt[jMolecules",
+          "description": "annotation processor] - Verifies rules attached to https://github.com/xmolecules/jmolecules[jMolecules] concepts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 335070900,
+            "language": "Java",
+            "last_commit": "2026-06-15T15:34:27Z",
+            "owner": "xmolecules",
+            "repo": "jmolecules-integrations",
+            "stars": 115
+          }
+        }
+      ],
+      "title": "Overview"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-08-23T23:49:22.013Z",
+    "last_updated": "2026-08-24T14:22:01.946Z",
     "original_repository": "gunnarmorling/awesome-annotation-processing",
     "original_repository_id": 184131270,
     "original_repository_sha": "520b95b8cd1899aeba6cef6a6d80fa246d7945dc",
