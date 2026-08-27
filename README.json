@@ -23,9 +23,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T04:40:48.221Z",
-    "original_repository": "gunnarmorling/awesome-annotation-processing",
-    "original_repository_id": 184131270,
+    "last_updated": "2026-08-27T11:23:18.368Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 184131270,
+      "language": null,
+      "last_commit": "2024-11-16T12:02:19Z",
+      "owner": "gunnarmorling",
+      "repo": "awesome-annotation-processing",
+      "stars": 540
+    },
     "original_repository_sha": "520b95b8cd1899aeba6cef6a6d80fa246d7945dc",
     "enhanced_repository": "enhansome/enhansome-annotation-processing",
     "enhanced_repository_description": null,
