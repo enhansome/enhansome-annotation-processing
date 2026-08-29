@@ -10,12 +10,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Technology integration for jMolecules",
+            "homepage": null,
             "id": 335070900,
             "language": "Java",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-15T15:34:27Z",
+            "open_issues": 25,
             "owner": "xmolecules",
             "repo": "jmolecules-integrations",
-            "stars": 115
+            "stars": 115,
+            "topics": []
           },
           "first_seen": "2026-08-28T07:03:02.273Z"
         }
@@ -24,15 +29,25 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T07:03:02.273Z",
+    "last_updated": "2026-08-29T04:29:45.616Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of resources related to the Java annotation processing API (JSR 269)",
+      "homepage": null,
       "id": 184131270,
       "language": null,
+      "license": "NOASSERTION",
       "last_commit": "2024-11-16T12:02:19Z",
+      "open_issues": 2,
       "owner": "gunnarmorling",
       "repo": "awesome-annotation-processing",
-      "stars": 540
+      "stars": 540,
+      "topics": [
+        "annotation-processing",
+        "annotation-processor",
+        "awesome-list",
+        "java"
+      ]
     },
     "original_repository_sha": "520b95b8cd1899aeba6cef6a6d80fa246d7945dc",
     "enhanced_repository": "enhansome/enhansome-annotation-processing",
