@@ -29,7 +29,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-16T01:36:21.821Z",
+    "last_updated": "2026-10-17T01:28:32.486Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources related to the Java annotation processing API (JSR 269)",
@@ -41,7 +41,7 @@
       "open_issues": 2,
       "owner": "gunnarmorling",
       "repo": "awesome-annotation-processing",
-      "stars": 539,
+      "stars": 540,
       "topics": [
         "annotation-processing",
         "annotation-processor",
