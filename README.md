@@ -14,7 +14,7 @@ toc::\[]
 
 *Existing annotation processors for different purposes*
 
-* <https://github.com/xmolecules/jmolecules-integrations/tree/main/jmolecules-apt[jMolecules> ⭐ 115 | 🐛 25 | 🌐 Java | 📅 2026-06-15 annotation processor] - Verifies rules attached to <https://github.com/xmolecules/jmolecules[jMolecules>] concepts.
+* <https://github.com/xmolecules/jmolecules-integrations/tree/main/jmolecules-apt[jMolecules> ⭐ 115 | 🐛 25 | 🌐 Java | 📅 2026-11-12 annotation processor] - Verifies rules attached to <https://github.com/xmolecules/jmolecules[jMolecules>] concepts.
 * <https://github.com/avaje/avaje-inject[avaje-inject>] - Compile-time dependency injection library.
 * <https://github.com/avaje/avaje-jsonb[avaje-jsonb>] - JSON mapping using generated source code
 * <https://github.com/avaje/avaje-http[avaje-http>] - Generates adapter code for Javalin and Helidon SE/Nima from JAX-RS style controllers.
@@ -95,4 +95,4 @@ toc::\[]
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-12._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-13._
