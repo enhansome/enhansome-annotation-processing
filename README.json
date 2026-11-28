@@ -15,8 +15,8 @@
             "id": 335070900,
             "language": "Java",
             "license": "Apache-2.0",
-            "last_commit": "2026-11-25T13:59:02Z",
-            "open_issues": 25,
+            "last_commit": "2026-11-27T20:49:12Z",
+            "open_issues": 29,
             "owner": "xmolecules",
             "repo": "jmolecules-integrations",
             "stars": 115,
@@ -29,7 +29,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-27T05:16:36.955Z",
+    "last_updated": "2026-11-28T04:54:36.301Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources related to the Java annotation processing API (JSR 269)",
